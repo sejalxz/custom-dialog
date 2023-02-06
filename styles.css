@@ -1,0 +1,60 @@
+body{
+    font-family: Lato, "Lucida Grande", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    border: 1px dashed lightgray;
+}
+
+.dialog{
+
+}
+.dialog-wrapper{
+    border: 1px solid lightgray;
+}
+
+.dialog-header{
+    position: relative;
+    padding: 5px;
+    background-color: #00bfff;
+    max-height: 30px;
+}
+
+.dialog-close-icon {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    font-size: 0.7em;
+    right: 1.5em;
+}
+
+.dialog-body {
+    padding: 10px;
+}
+
+.dialog-buttons {
+    padding: 5px;
+}
+
+.button {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 4px;
+    min-width: 4em;
+}
+
+.dialog-buttons .positive {
+    background-color: #2ecc71;
+}
+
+.dialog-buttons .negative {
+    background-color: #95a5a6;
+}
+
